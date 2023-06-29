@@ -1,0 +1,139 @@
+#g{
+    color: blue; 
+ 
+ }
+ #p{
+     color: red; 
+  }
+  #t{
+     color: gold; 
+  }
+ 
+  #gpt{
+     border: none;
+     background-color: white;
+     font-size: 25px;
+     font-weight: 700;
+     background-color: #F5F5F5;
+  }
+ 
+ #home{
+     font-size: medium;
+     color: black;
+     margin-left: 15px;
+     background-color: white;
+     border: none;
+    background-color: #F5F5F5;
+     font-weight: 525;
+ }
+ .somehead{
+     margin-left: 90px;
+     margin-top: -25.5px;
+ }
+ #about{
+     font-size: medium;
+     color: yellow;
+     color: rgba(0, 0, 0, 0.259);
+     margin-left: 10px;
+     background-color: white;
+     border: none;
+    background-color: #F5F5F5;
+     font-weight: 525;
+ }
+ 
+ .head{
+     margin-top: 20px;
+     margin-left: 15px;
+ }
+ 
+ #firstP{ 
+ 
+     display: flex;
+     justify-content: center;
+     margin-top: 50px;
+ }
+ 
+ #secondP{
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+     font-size: 17px;
+ }
+ #thirdP{
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+     font-size: 17px;
+ }
+ 
+ #perfect{
+ 
+     color: blue;
+     margin-right: 5px;
+ }
+ 
+ 
+ #unleash{
+     color:red;
+     margin-left: 5px;
+ }
+ 
+ #polished{
+     color:gold;
+     margin-left: 5px;
+ }
+ #write{
+     margin-left: 5px;
+ }
+ #pot{
+     margin-left: 5px;
+ }
+ 
+ .container{
+    
+     width: 800px;
+     height: 350px;
+     border: 2px solid #a3a3a3;
+     position: absolute;
+     top: 50%;
+     margin-top: 90px;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color:white;
+ }
+ body{
+     background-color: #F5F5F5;
+ }
+ 
+ #check{
+     position: absolute;
+     top: 50%;
+     margin-top: 320px;
+     border-radius: 10px;
+     left: 70%;
+     transform: translate(-50%, -50%);
+ }
+
+#check{
+ background-color: lime;
+ border-color: lime;
+ width: 150px;
+ height: 50px;
+}
+.inputClass{
+ 
+    border: none;
+ margin-top: 40px
+ 
+ 
+}
+#input{
+ height:280px;
+ outline: none;
+ margin-left: 40px;
+ border:none;
+ font-size: 16px;
+ width: 700px
+ 
+ 
+}

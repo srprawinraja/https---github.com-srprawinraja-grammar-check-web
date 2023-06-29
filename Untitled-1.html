@@ -1,0 +1,40 @@
+
+<html>
+    <head>
+        <title>GPT</title>
+        <link rel="stylesheet" href="home.css">
+        <script src="js gramma.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@grammarly/editor-sdk?clientId=YOUR_CLIENT_ID"></script>
+    </head>
+
+    <body>
+        <div class="head">
+            <button id="gpt">
+                <span id="g">G</span>
+                <span id="p">P</span>
+                <span id="t">T</span>
+            </button>
+            <div class="someHead">
+                <button id="home">Home</button>
+                <button id="about">About</button>
+            </div>    
+            
+        </div>
+
+        <h1 id="firstP">Free Online Grammar Check Up</h1>
+        
+        <p id="secondP"><span id="perfect">Perfect </span> Grammar, <span id="polished"> Polished </span> <span id="write">Writing.</span> <span id="unleash"> Unleash </span><span id="pot">Your Potential.</span></p>
+        <p id="thirdP">Paste your text or start typing below to check for grammar, spelling, and punctuation errors.</p>
+        
+        <div class="container">
+            <div class="inputClass">
+                <grammarly-editor-plugin>
+                    <textarea id="input" placeholder="Paste your text or start typing below to check for grammar, spelling, and punctuation errors."></textarea>
+                
+            </div>
+           
+        </div>
+
+        <button id="check" onclick="check()">Fix All Mistakes</button>
+    </body>
+</html>
